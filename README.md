@@ -8,9 +8,9 @@
 - Create a `config.py` file and use `from configparser import ConfigParser` this import to read the configuration in `database.ini` file.
 
 
-`                                   
+                               
     
-    def config(filename='database.ini', section='postgresql'):
+   ` def config(filename='database.ini', section='postgresql'):
         # create a parser
         parser = ConfigParser()
         # read config file
@@ -27,4 +27,4 @@
                'Section {0} not found in the {1} file'.format(section, filename))
    
        return db
-`
+       `
