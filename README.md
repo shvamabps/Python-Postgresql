@@ -8,7 +8,7 @@
 - Create a `config.py` file and use `from configparser import ConfigParser` this import to read the configuration in `database.ini` file.
 
 
-` from configparser import ConfigParser                                      
+`                                   
     
     def config(filename='database.ini', section='postgresql'):
         # create a parser
